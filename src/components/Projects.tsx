@@ -1,5 +1,12 @@
 import { useState } from "react";
 import { ExternalLink, Github, Star, Sparkles, Code, Eye, Award, Badge } from "lucide-react";
+import agileImg from "./assets/agile.png";
+import emploi from "./assets/emploi.png";
+import sony from "./assets/sony.png";
+import quiz from "./assets/quiz.png";
+import delivery from "./assets/delivery.png";
+
+
 
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
@@ -9,7 +16,8 @@ const Projects = () => {
       title: "Axia Agile",
       description: "Axia Agile is a project management platform designed for software development teams, supporting Scrum and Kanban methodologies. It helps teams efficiently manage sprints, tasks, and workflows while providing clear visibility into project progress.",
       tags: ["React", ".NET8", "C#", "CI/CD", "SQL SERVER", "Microservices", "Scrum", "Kanban"],
-      image: "src/assets/agile.png",
+    image: agileImg
+,
       github: "#",
       demo: "#",
       featured: true,
@@ -20,7 +28,7 @@ const Projects = () => {
       title: "EasyTimetable",
       description: "A collaborative scheduling application for managing timetables with real-time updates, team collaboration, and progress tracking. Developed using Angular for the front-end and Spring Boot for the back-end.",
       tags: ["React", "Spring Boot", "REST API", "MySQL", "Flutter"],
-      image: "src/assets/emploi.png",
+      image: emploi,
       github: "#",
       demo: "#",
       gradient: "from-sky-400 to-blue-400",
@@ -30,7 +38,7 @@ const Projects = () => {
       title: "Sony Travel UI Design",
       description: "A mobile travel reservation application designed in Figma, featuring user-friendly trip planning, booking management, and interactive itinerary views.",
       tags: ["Figma", "UI/UX Design", "Mobile App", "Travel Reservation"],
-      image: "src/assets/sony.png",
+      image: sony,
       github: "#",
       demo: "#",
       gradient: "from-blue-300 to-sky-300",
@@ -40,7 +48,7 @@ const Projects = () => {
       title: "QuizMaster",
       description: "QuizMaster is an engaging online platform that allows users to test their knowledge across diverse categories. Featuring hundreds of questions, real-time leaderboards, and competitive challenges, it offers a fun and interactive experience for trivia enthusiasts and learners alike.",
       tags: ["React", "Spring Boot", "REST API", "MySQL"],
-      image: "src/assets/quiz.png",
+      image: quiz,
       github: "#",
       demo: "#",
       gradient: "from-sky-500 to-blue-500",
@@ -50,7 +58,7 @@ const Projects = () => {
       title: "Delivery Food",
       description: "A full-stack food delivery application featuring user-friendly ordering, real-time order tracking, and role-based access for customers, delivery personnel, and administrators.",
       tags: ["Angular", "Spring Boot", "REST API", "MySQL"],
-      image: "src/assets/delivery.png",
+      image: delivery,
       github: "#",
       demo: "#",
       gradient: "from-blue-400 to-sky-400",
